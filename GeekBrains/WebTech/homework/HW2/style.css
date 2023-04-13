@@ -1,0 +1,57 @@
+@font-face {
+	font-family: 'Baltimore Nouveau';
+	src: url('./fonts/baltimore_nouveau.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/baltimore_nouveau.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/baltimore_nouveau.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/baltimore_nouveau.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/baltimore_nouveau.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/baltimore_nouveau.svg#baltimore_nouveau') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+html {
+    background-image: url(https://beolin.club/uploads/posts/2022-08/1659687148_48-beolin-club-p-mnogo-kotov-risunok-krasivo-49.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* .div.center_list {
+    width: 100%;
+}
+
+.div.center_list ul, ol {
+    text-align: center;
+    list-style: none;
+}
+
+.div.center_list li {
+    display: inline-block;
+} */
+
+h1, h2, h3{
+    font-family: Baltimore Nouveau;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+
+.orange {
+    color: orange;
+}
+
+img {
+    width: 500px;
+}
+
+a:hover {
+    color: rgb(250, 6, 6);
+}
+

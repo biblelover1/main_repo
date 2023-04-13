@@ -1,0 +1,15 @@
+C:\Users\evgen\OneDrive\Рабочий стол\ДЗ GB\Control project\obj\Debug\net6.0\Control project.csproj.AssemblyReference.cache
+C:\Users\evgen\OneDrive\Рабочий стол\ДЗ GB\Control project\obj\Debug\net6.0\Control project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\evgen\OneDrive\Рабочий стол\ДЗ GB\Control project\obj\Debug\net6.0\Control project.AssemblyInfoInputs.cache
+C:\Users\evgen\OneDrive\Рабочий стол\ДЗ GB\Control project\obj\Debug\net6.0\Control project.AssemblyInfo.cs
+C:\Users\evgen\OneDrive\Рабочий стол\ДЗ GB\Control project\obj\Debug\net6.0\Control project.csproj.CoreCompileInputs.cache
+C:\Users\evgen\OneDrive\Рабочий стол\ДЗ GB\Control project\bin\Debug\net6.0\Control project.exe
+C:\Users\evgen\OneDrive\Рабочий стол\ДЗ GB\Control project\bin\Debug\net6.0\Control project.deps.json
+C:\Users\evgen\OneDrive\Рабочий стол\ДЗ GB\Control project\bin\Debug\net6.0\Control project.runtimeconfig.json
+C:\Users\evgen\OneDrive\Рабочий стол\ДЗ GB\Control project\bin\Debug\net6.0\Control project.dll
+C:\Users\evgen\OneDrive\Рабочий стол\ДЗ GB\Control project\bin\Debug\net6.0\Control project.pdb
+C:\Users\evgen\OneDrive\Рабочий стол\ДЗ GB\Control project\obj\Debug\net6.0\Control project.dll
+C:\Users\evgen\OneDrive\Рабочий стол\ДЗ GB\Control project\obj\Debug\net6.0\refint\Control project.dll
+C:\Users\evgen\OneDrive\Рабочий стол\ДЗ GB\Control project\obj\Debug\net6.0\Control project.pdb
+C:\Users\evgen\OneDrive\Рабочий стол\ДЗ GB\Control project\obj\Debug\net6.0\Control project.genruntimeconfig.cache
+C:\Users\evgen\OneDrive\Рабочий стол\ДЗ GB\Control project\obj\Debug\net6.0\ref\Control project.dll
