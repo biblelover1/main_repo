@@ -8,7 +8,7 @@ salaries = [100, 80, 75, 77, 89, 33, 45, 25, 65,
 
 def mean(ls):
     sum = 0
-    for i in range(len(ls)-1):
+    for i in range(len(ls)):
         sum += ls[i]
     mean_val = sum/len(ls)
     return mean_val
@@ -21,7 +21,7 @@ print(f'Среднее арифметическое: {res}')
 def dispersion(ls, mean_value):
     sum = 0
     res = 0
-    for i in range(len(ls)-1):
+    for i in range(len(ls)):
         res = pow((ls[i] - mean_value), 2)
         sum += res
     displaced_disp = sum/len(ls)
@@ -111,5 +111,5 @@ atLeast_one_detail = 1 - (0.9*0.8*0.75)
 print(f'Task c: {atLeast_one_detail}')  # 0.46
 
 # d One detail (РРС + РСР + СРР)
-from1_toTwo = 1 - ((0.9*0.8*0.25+0.9*0.2*0.75+0.1*0.8*0.75)+two_details)
+from1_toTwo = ((0.9*0.8*0.25+0.9*0.2*0.75+0.1*0.8*0.75)+two_details)
 print(f'Task d: {from1_toTwo}')  # 0.54
