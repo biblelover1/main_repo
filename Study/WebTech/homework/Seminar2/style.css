@@ -1,0 +1,40 @@
+.center{
+    text-align: center;
+}
+
+h1, a {
+    color: red;
+}
+h2 {
+    color: yellow;
+}
+html {
+    background-color: aqua;
+}
+img {
+    width: 500px;
+}
+.big_text{
+    font-size: 26px;
+    font-family: 'Teddy Bears Regular';
+}
+@font-face {
+	font-family: 'Teddy Bears Regular';
+	src: url('fonts/teddy_bears_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/teddy_bears_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/teddy_bears_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/teddy_bears_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/teddy_bears_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/teddy_bears_regular.svg#teddy_bears_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+.square{
+    list-style-type: square;
+}
+a:hover{
+    color: snow;
+}
+body{
+    justify-content: center;
+    align-items: center
+}
