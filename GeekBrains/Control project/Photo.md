@@ -1,1 +1,0 @@
-![Algprithm](Algorythm.png) 
