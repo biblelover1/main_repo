@@ -165,3 +165,36 @@ INNER JOIN Product
 ON PRODUCT.model = PC.model
 WHERE maker in (SELECT maker FROM PRODUCT WHERE type = 'Printer')
 GROUP BY maker
+
+--В таблице Product найти модели, которые состоят только из цифр или только из латинских букв (A-Z, без учета регистра).Вывод: номер модели, тип модели.
+SELECT model, type
+FROM Product
+WHERE model NOT LIKE '%[^0-9A-Za-z]%'
+
+--Перечислите названия головных кораблей, имеющихся в базе данных (учесть корабли в Outcomes).
+SELECT Ships.name FROM Ships
+INNER JOIN Classes ON Classes.class=Ships.name
+UNION
+SELECT Outcomes.ship FROM Outcomes
+INNER JOIN Classes ON Classes.class=Outcomes.ship
+
+--(Неточное решение) Найдите классы, в которые входит только один корабль из базы данных (учесть также корабли в Outcomes).
+SELECT class
+FROM Ships
+GROUP BY class
+HAVING COUNT(name) = 1
+UNION
+SELECT class
+FROM Classes c, Outcomes o
+WHERE c.class = o.ship AND
+ NOT EXISTS (SELECT 'x' 
+ FROM Ships s
+ WHERE o.ship = s.class
+ )
+
+ --Найдите названия всех кораблей в базе данных, начинающихся с буквы R.
+select name from Ships
+where name LIKE 'R%'
+UNION
+SELECT Ship From Outcomes
+where Ship LIKE 'R%'
